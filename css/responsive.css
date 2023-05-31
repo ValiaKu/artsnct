@@ -1,0 +1,66 @@
+@media (max-width: 992px) {
+  .hamburger-menu {
+    display: block;
+  }
+  .common-menu {
+    display: none;
+  }
+  header {
+    grid-template-columns: 45px 130px 0px 1fr 50px;
+    height: 80px;
+  }
+  .langs-menu {
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  .logo img {
+    height: 45px;
+    width: auto;
+  }
+  main {
+    margin-left: 40px;
+    margin-right: 25px;
+  }
+  .one-object-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main-top {
+    height: auto;
+  }
+  .main-top > .container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  .artsanstion-social {
+    padding: 20px;
+  }
+  .artsanstion-info {
+    flex-direction: column;
+  }
+  .artsanstion-info .info-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rus-own {
+    margin-bottom: 20px;
+  }
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+  .footer-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .projects-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
+}
