@@ -117,6 +117,15 @@ main > h2 {
   display: flex;
   justify-content: center;
 }
+.social-wrapper a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 24px 24px;
+  margin-top: 24px;
+}
 .social-wrapper p {
   grid-area: a;
   font-size: 1.4rem;
@@ -124,12 +133,27 @@ main > h2 {
 }
 .fb {
   grid-area: b;
+  background-image: url(../images/icons/fb.svg);
 }
 .tw {
   grid-area: c;
+  background-image: url(../images/icons/tw.svg);
 }
 .tg {
   grid-area: d;
+  background-image: url(../images/icons/tg.svg);
+}
+.fb:hover {
+  grid-area: b;
+  background-image: url(../images/icons/fb_a.svg);
+}
+.tw:hover {
+  grid-area: c;
+  background-image: url(../images/icons/tw_a.svg);
+}
+.tg:hover {
+  grid-area: d;
+  background-image: url(../images/icons/tg_a.svg);
 }
 .social-wrapper form {
   grid-area: e;
