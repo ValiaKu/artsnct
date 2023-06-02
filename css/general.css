@@ -153,6 +153,8 @@ footer a {
   background-image: url(../images/icons/email.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 @media (min-width: 1200px) {
   .footer-wrapper {
